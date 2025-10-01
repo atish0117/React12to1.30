@@ -1,6 +1,5 @@
 import { useState,useEffect } from "react"
-import {First} from "./First"
-
+import { Link } from "react-router-dom"
 const Character=()=>{
   const [item,setItem]=useState([])
 
@@ -29,7 +28,7 @@ const Character=()=>{
         </div>
         <h1 >Name: <span className="text-green-500 font-extrabold"> {value.name} </span></h1>
         <h2>{value.affiliation}</h2>
-      <First />
+        <button className="border"><Link to={`/singlapage/${value.id}`}>View Details</Link></button>
       </div>
     )
   })
