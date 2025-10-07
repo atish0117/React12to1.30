@@ -1,8 +1,9 @@
 import {useState,useEffect} from "react"
-
+import { Link } from "react-router-dom"
 export const Planets=()=>{
 
     const [item, setItem]=useState([])
+
 
     const URL="https://dragonball-api.com/api/planets"
     const fetchData=async()=>{
@@ -20,7 +21,6 @@ export const Planets=()=>{
 
     return(
         <>
-
         <div className="w-full h-auto bg-gray-400 p-5 flex justify-evenly flex-wrap gap-4">
             {
                 item.map((planet, ind)=>{
@@ -39,10 +39,7 @@ export const Planets=()=>{
                             
                             }
                         </div>
-
-
-
-
+                        <Link to={`/singlePlanet/${planet.id}`}>view Details</Link>
                         </div>
 
                     )

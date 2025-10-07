@@ -1,11 +1,12 @@
 import React from 'react'
-import {BrowserRouter,Routes,Route} from "react-router"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 import { Planets } from "./Planets"
 import Character  from "./Character"
 import Home from "./Home"
 import ErrorPage from './ErrorPage'
 import Navbar  from './Navbar'
 import { SingalPage } from './SingalPage'
+import {SinglePagePlanet} from "./SinglePagePlanet"
 const App = () => {
   return (
 
@@ -37,6 +38,10 @@ const App = () => {
 
     <Route path="/singlapage/:id" element={<SingalPage/>} />
 
+  </Routes>
+
+  <Routes>
+    <Route path='/singlePlanet/:id' element ={<SinglePagePlanet/>}/>
   </Routes>
   
     
