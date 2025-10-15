@@ -18,29 +18,28 @@ const App = () => {
 
     <Route path="/" element={<Home/>} />
 
-  </Routes>
+  
     {/* <Routes>
 
     <Route path="*" element={<ErrorPage/>} /> 
 
   </Routes> */}
 
-  <Routes>
+  
     <Route path="/planet" element={<Planets/>} />
-  </Routes>
+  
 
-  <Routes>
+  
 
     <Route path="/character" element={<Character/>} />
 
-  </Routes>
-  <Routes>
+  
+  
 
     <Route path="/singlapage/:id" element={<SingalPage/>} />
 
-  </Routes>
+  
 
-  <Routes>
     <Route path='/singlePlanet/:id' element ={<SinglePagePlanet/>}/>
   </Routes>
   
