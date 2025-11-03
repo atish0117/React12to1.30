@@ -22,7 +22,7 @@ return (
       {item.map((value, ind) => (
         <div
           key={ind}
-          className="w-80 bg-white shadow-lg rounded-2xl  hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+          className="w-52 bg-white shadow-lg rounded-2xl  hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
         >
           {/* Image Section */}
           <div className="bg-gradient-to-br from-amber-50 to-amber-200 h-48 flex justify-center items-center">
