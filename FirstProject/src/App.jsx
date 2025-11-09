@@ -7,6 +7,7 @@ import ErrorPage from './ErrorPage'
 import Navbar  from './Navbar'
 import { SingalPage } from './SingalPage'
 import {SinglePagePlanet} from "./SinglePagePlanet"
+import { Props } from './Props'
 const App = () => {
   return (
 
@@ -17,6 +18,7 @@ const App = () => {
     <Routes>
 
     <Route path="/" element={<Home/>} />
+    <Route path="/props" element={<Props/>} />
 
   
     {/* <Routes>
