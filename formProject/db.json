@@ -1,0 +1,193 @@
+{
+  "employees": [
+    {
+      "empName": "Aarav Sharma",
+      "empAge": 29,
+      "empAddress": "12 MG Road, Bengaluru, Karnataka",
+      "empDesignation": "Software Engineer",
+      "empSalary": 85000,
+      "empDepartment": "IT",
+      "id": "3f13"
+    },
+    {
+      "empName": "Priya Nair",
+      "empAge": 32,
+      "empAddress": "45 Marine Drive, Kochi, Kerala",
+      "empDesignation": "HR Executive",
+      "empSalary": 62000,
+      "empDepartment": "Human Resources",
+      "id": "531c"
+    },
+    {
+      "empName": "Rohan Patel",
+      "empAge": 35,
+      "empAddress": "77 C G Road, Ahmedabad, Gujarat",
+      "empDesignation": "Project Manager",
+      "empSalary": 95000,
+      "empDepartment": "Management",
+      "id": "8c79"
+    },
+    {
+      "empName": "Sneha Iyer",
+      "empAge": 27,
+      "empAddress": "8 Peddar Road, Mumbai, Maharashtra",
+      "empDesignation": "UI/UX Designer",
+      "empSalary": 70000,
+      "empDepartment": "Design",
+      "id": "1432"
+    },
+    {
+      "empName": "Vikram Singh",
+      "empAge": 31,
+      "empAddress": "34 Civil Lines, Jaipur, Rajasthan",
+      "empDesignation": "Network Administrator",
+      "empSalary": 78000,
+      "empDepartment": "IT",
+      "id": "663c"
+    },
+    {
+      "empName": "Ananya Das",
+      "empAge": 26,
+      "empAddress": "120 Park Street, Kolkata, West Bengal",
+      "empDesignation": "Marketing Associate",
+      "empSalary": 60000,
+      "empDepartment": "Marketing",
+      "id": "38ae"
+    },
+    {
+      "empName": "Manish Gupta",
+      "empAge": 40,
+      "empAddress": "56 Rajpur Road, Dehradun, Uttarakhand",
+      "empDesignation": "Finance Manager",
+      "empSalary": 98000,
+      "empDepartment": "Finance",
+      "id": "f9dc"
+    },
+    {
+      "empName": "Kavya Reddy",
+      "empAge": 28,
+      "empAddress": "22 Banjara Hills, Hyderabad, Telangana",
+      "empDesignation": "Data Analyst",
+      "empSalary": 72000,
+      "empDepartment": "Data Science",
+      "id": "62a2"
+    },
+    {
+      "empName": "Aditya Mehta",
+      "empAge": 30,
+      "empAddress": "67 Law Garden, Ahmedabad, Gujarat",
+      "empDesignation": "QA Engineer",
+      "empSalary": 68000,
+      "empDepartment": "Quality Assurance",
+      "id": "6f37"
+    },
+    {
+      "empName": "Neha Joshi",
+      "empAge": 33,
+      "empAddress": "4 Koregaon Park, Pune, Maharashtra",
+      "empDesignation": "Product Manager",
+      "empSalary": 94000,
+      "empDepartment": "Product",
+      "id": "ce92"
+    },
+    {
+      "empName": "Rahul Choudhary",
+      "empAge": 37,
+      "empAddress": "89 Sector 22, Chandigarh",
+      "empDesignation": "Operations Head",
+      "empSalary": 91000,
+      "empDepartment": "Operations",
+      "id": "0b5d"
+    },
+    {
+      "empName": "Isha Kapoor",
+      "empAge": 25,
+      "empAddress": "15 Greater Kailash, New Delhi",
+      "empDesignation": "Content Writer",
+      "empSalary": 58000,
+      "empDepartment": "Content",
+      "id": "6084"
+    },
+    {
+      "empName": "Siddharth Rao",
+      "empAge": 29,
+      "empAddress": "19 Jubilee Hills, Hyderabad, Telangana",
+      "empDesignation": "DevOps Engineer",
+      "empSalary": 86000,
+      "empDepartment": "IT",
+      "id": "6100"
+    },
+    {
+      "empName": "Ritika Sen",
+      "empAge": 27,
+      "empAddress": "23 Salt Lake, Kolkata, West Bengal",
+      "empDesignation": "Graphic Designer",
+      "empSalary": 64000,
+      "empDepartment": "Design",
+      "id": "cf40"
+    },
+    {
+      "empName": "Harsh Verma",
+      "empAge": 42,
+      "empAddress": "90 Lajpat Nagar, New Delhi",
+      "empDesignation": "Senior Accountant",
+      "empSalary": 92000,
+      "empDepartment": "Finance",
+      "id": "35a7"
+    },
+    {
+      "empName": "Meera Pillai",
+      "empAge": 31,
+      "empAddress": "8 Vyttila, Kochi, Kerala",
+      "empDesignation": "Business Analyst",
+      "empSalary": 83000,
+      "empDepartment": "Business",
+      "id": "fe0e"
+    },
+    {
+      "empName": "Aman Yadav",
+      "empAge": 34,
+      "empAddress": "55 Gomti Nagar, Lucknow, Uttar Pradesh",
+      "empDesignation": "System Administrator",
+      "empSalary": 80000,
+      "empDepartment": "IT",
+      "id": "58cd"
+    },
+    {
+      "empName": "Tanya Bhat",
+      "empAge": 28,
+      "empAddress": "44 Residency Road, Srinagar, Jammu & Kashmir",
+      "empDesignation": "Customer Support Lead",
+      "empSalary": 67000,
+      "empDepartment": "Support",
+      "id": "a9bf"
+    },
+    {
+      "empName": "Ravi Kumar",
+      "empAge": 39,
+      "empAddress": "76 Anna Nagar, Chennai, Tamil Nadu",
+      "empDesignation": "Operations Manager",
+      "empSalary": 95000,
+      "empDepartment": "Operations",
+      "id": "9dab"
+    },
+    {
+      "empName": "Pooja Bhattacharya",
+      "empAge": 30,
+      "empAddress": "10 Gariahat, Kolkata, West Bengal",
+      "empDesignation": "Recruitment Specialist",
+      "empSalary": 66000,
+      "empDepartment": "Human Resources",
+      "id": "1282"
+    },
+    {
+      "id": "b510",
+      "empName": "rohit",
+      "empAge": "22",
+      "empDesignation": "mern Stack developer",
+      "empSalary": "50000",
+      "empDepartment": "sf engg",
+      "empAddress": "faridabad"
+    }
+  ]
+}
