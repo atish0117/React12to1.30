@@ -14,9 +14,27 @@ export const Home = () => {
     }
   };
 
+  const handleDelete=async(id)=>{
+    console.log("id",id)
+    try {
+      let isDel=confirm("are you sure!")
+      console.log(isDel)
+      if(isDel){
+          const deleteFun=await axios.delete(`http://localhost:3000/employees/${id}`)
+            console.log(deleteFun)
+            fetchData();
+      }
+    } catch (error) {
+        console.log(error)
+        console.log(error.message)
+    }
+
+  
+
 
   useEffect(() => {
     fetchData();
+    // handleDelete()
   }, []);
 
   return (
@@ -73,6 +91,10 @@ export const Home = () => {
             {/* Footer */}
             <div className="border-t border-blue-700 mt-3 pt-1 text-right text-xs italic text-gray-700">
               Signature of {emp.empName}
+              <button className="bg-rose-700 px-2 py-1 rounded-lg text-amber-50 ml-2 active:bg-gray-500 cursor-pointer" onClick={()=>handleDelete(emp.id)}>
+                delete</button>
+              <button className="bg-green-700 px-2 py-1 rounded-lg text-amber-50 ml-2 active:bg-gray-500 cursor-pointer" onClick={()=>handleUpdate(emp.id)}>
+                edit</button>
             </div>
           </div>
         ))}

@@ -82,15 +82,6 @@
       "id": "6f37"
     },
     {
-      "empName": "Neha Joshi",
-      "empAge": 33,
-      "empAddress": "4 Koregaon Park, Pune, Maharashtra",
-      "empDesignation": "Product Manager",
-      "empSalary": 94000,
-      "empDepartment": "Product",
-      "id": "ce92"
-    },
-    {
       "empName": "Rahul Choudhary",
       "empAge": 37,
       "empAddress": "89 Sector 22, Chandigarh",
@@ -161,33 +152,6 @@
       "empSalary": 67000,
       "empDepartment": "Support",
       "id": "a9bf"
-    },
-    {
-      "empName": "Ravi Kumar",
-      "empAge": 39,
-      "empAddress": "76 Anna Nagar, Chennai, Tamil Nadu",
-      "empDesignation": "Operations Manager",
-      "empSalary": 95000,
-      "empDepartment": "Operations",
-      "id": "9dab"
-    },
-    {
-      "empName": "Pooja Bhattacharya",
-      "empAge": 30,
-      "empAddress": "10 Gariahat, Kolkata, West Bengal",
-      "empDesignation": "Recruitment Specialist",
-      "empSalary": 66000,
-      "empDepartment": "Human Resources",
-      "id": "1282"
-    },
-    {
-      "id": "b510",
-      "empName": "rohit",
-      "empAge": "22",
-      "empDesignation": "mern Stack developer",
-      "empSalary": "50000",
-      "empDepartment": "sf engg",
-      "empAddress": "faridabad"
     }
   ]
 }
